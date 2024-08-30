@@ -8,8 +8,10 @@ Durante o torneio, equipes são desafiadas a resolverem desafios de código em l
 
 
 ### Nossa Equipe de Torneio: Patolinux QUACK QUACK! 🍹🦆
-- [ ] Luís Guilherme 
-- [ ] Rayssa Buarque 
+- [ ] [darscun](https://github.com/darscun)
+- [ ] [Kawagui](https://github.com/Kawagui) 
+- [ ] [RayssaBuarque](https://github.com/RayssaBuarque) 
+- [ ] Thales Kauan 
 
 ---
 
