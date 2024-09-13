@@ -17,20 +17,20 @@ int main (){
             scanf("%d %d %s", &x, &y, ordem); //Ler o ponto de partida e as instruções
             for(j=0;j<K;j++){
                 switch (ordem[j]){
-                case 'D':
-                    y++;
-                    break;
-                case 'E':
-                    y--;
-                    break;
-                case 'C':
-                    x--;
-                    break;
-                case 'B':
-                    x++;
-                    break; 
-                default:
-                    break;
+                    case 'D':
+                        y++;
+                        break;
+                    case 'E':
+                        y--;
+                        break;
+                    case 'C':
+                        x--;
+                        break;
+                    case 'B':
+                        x++;
+                        break; 
+                    default:
+                        break;
                 }
             }
             if(Matriz[x][y]==0){
