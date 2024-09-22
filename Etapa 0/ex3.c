@@ -33,7 +33,7 @@ int main (){
                         break;
                 }
             }
-            if(Matriz[x][y]==0){
+            if(Matriz[x][y]==0 && X>0 && X<N && Y>0 && Y<N){ //Verificar se o robô não saiu da matriz
                 Matriz[x][y]=1;
             } else {
                 printf("Hmm, parece que tivemos um pequeno contratempo robótico.\n");
