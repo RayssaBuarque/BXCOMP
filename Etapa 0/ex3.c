@@ -18,15 +18,19 @@ int main (){
             for(j=0;j<K;j++){
                 switch (ordem[j]){
                     case 'D':
+                        if(y<N)
                         y++;
                         break;
                     case 'E':
+                        if(y>0)
                         y--;
                         break;
                     case 'C':
+                        if(x>0)
                         x--;
                         break;
                     case 'B':
+                        if(x<N)
                         x++;
                         break; 
                     default:
